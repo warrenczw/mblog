@@ -264,9 +264,6 @@
 		<!--开发默认环境-->
 		<profile>
 			<id>dev</id>
-			<activation>
-				<activeByDefault>true</activeByDefault>
-			</activation>
 			<properties>
 				<profileActive>dev</profileActive>
 			</properties>
@@ -283,6 +280,9 @@
 		<!--Docker环境-->
 		<profile>
 			<id>docker</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
 			<properties>
 				<profileActive>docker</profileActive>
 			</properties>
